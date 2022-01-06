@@ -1,0 +1,18 @@
+[config]
+name="FaceTrack"
+binary="facetrack.xcframework"
+
+initialization="register_facetrack_types"
+deinitialization="unregister_facetrack_types"
+
+[dependencies]
+linked=[]
+embedded=[]
+system=["AVFoundation.framework", "ARKit.framework"]
+
+capabilities=["arkit"]
+
+files=[]
+
+[plist]
+NSCameraUsageDescription="Device camera is used for face tracking"

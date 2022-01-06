@@ -1,0 +1,4 @@
+参考コード
+https://github.com/godotengine/godot-ios-plugins
+MIT License
+Copyright (c) 2021 Godot Engine
